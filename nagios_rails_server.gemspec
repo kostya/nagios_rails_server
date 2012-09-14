@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
 
   s.authors = ["Makarchev Konstantin"]
   
-  s.description = %q{Async server for nagios_helper gem}
-  s.summary = %q{Async server for nagios_helper gem}
+  s.description = %q{Async server for gem nagios_helper, based on rack,thin and async-sinatra.}
+  s.summary = %q{Async server for gem nagios_helper, based on rack,thin and async-sinatra.}
 
   s.email = %q{kostya27@gmail.com}
   s.homepage = %q{http://github.com/kostya/nagios_rails_server}
