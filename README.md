@@ -1,7 +1,7 @@
 NagiosRailsServer
 =================
 
-Async server for gem [nagios_helper](http://github.com/kostya/nagios_helper), based on rack,thin and async-sinatra.
+Async server for gem [nagios_helper](http://github.com/kostya/nagios_helper), based on rack,thin and async-sinatra. Runned with rails environment.
 
 ```
 gem 'nagios_rails_server'
