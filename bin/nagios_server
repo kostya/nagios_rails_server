@@ -1,13 +1,13 @@
 #!/usr/bin/env ruby
 
-require 'nagios_helper/boot'
+require 'nagios/boot'
 require 'rack'
 
 raise "RAILS_ROOT not found" unless defined?(RAILS_ROOT)
 require File.join(RAILS_ROOT, %w{config environment})
 
 require 'eventmachine'
-require 'nagios_helper'
+require 'nagios'
 
 Rack # preload
 Rack::Server # preload
